@@ -1,12 +1,19 @@
 function label = script_spectral_clustering(data, varargin)
     fea = data.fea;
     k = data.class;
-    knn = 7;
+    
+    try
+        knn = varargin{1}.sc.knn;
+    catch
+        knn = 6;
+    end
 
     % sparse similarity with knn
     dist = squareform(pdist(fea));
     sigma = mean(dist(:));
     [nSmp, p] = size(dist);
+    [dump, idx] = deal(zeros(nSmp, knn));
+    
     for i = 1:knn
         [dump(:, i), idx(:, i)] = min(dist, [], 2);
         temp = (idx(:, i) - 1) * nSmp + [1:nSmp]';
@@ -20,5 +27,5 @@ function label = script_spectral_clustering(data, varargin)
     Gjdx = idx;
     Z = sparse(Gidx(:), Gjdx(:), Gsdx(:), nSmp, p);
 
-    label = SC(Z, k, 10);
+    label = SC(Z, k);
 end

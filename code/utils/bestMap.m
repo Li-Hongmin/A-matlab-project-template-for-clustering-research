@@ -28,7 +28,7 @@ for i=1:nClass1
 	end
 end
 
-[c,t] = hungarian(-G);
+c = hungarian(-G);
 newL2 = zeros(size(L2));
 for i=1:nClass2
     newL2(L2 == Label2(i)) = Label1(c(i));

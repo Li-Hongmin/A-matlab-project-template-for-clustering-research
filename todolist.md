@@ -2,6 +2,8 @@
 - Create a template of MATLAB project for research paper
     - [x] create folders
     - [ ] write a demo project to compare the clustering methods
+        - configuration
+            - [x] config
         - algorithms
             - [x] k-means 
             - [x] k-medoids
@@ -15,10 +17,11 @@
         - [] demo.m
         - [] scripts
             - [x] repeat
-            - [] evaluate
+            - [x] evaluate
+            - [x] save_result
             - [] analysis
         - [] utils
-            - [] metrics stuff
+            - [x] metrics stuff
         
 
 

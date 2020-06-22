@@ -6,13 +6,13 @@ function [data, data_info] = load_data()
    
     load iris_dataset.mat
     
-    data(1).fea = irisInputs;
+    data(1).fea = irisInputs';
     data(1).gnd = [1,2,3] * irisTargets;
-    data(1).name = 'iris_dataset';
+    data(1).name = 'iris';
     data(1).source = 'UCI';
 
     load wine_dataset.mat
-    data(2).fea = wineInputs;
+    data(2).fea = wineInputs';
     data(2).gnd = [1,2,3] * wineTargets;
     data(2).name = 'wine';
     data(2).source = 'UCI';

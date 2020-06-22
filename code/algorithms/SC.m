@@ -30,7 +30,7 @@ function labels = SC(S, k, kmRep)
     else
         [eigVectors, eigValues] = eig(full(L));
         eigValues = diag(eigValues);
-        [eigValues, idx] = sort(eigValues,'descend');
+        [~, idx] = sort(eigValues,'descend');
         nEigVec = eigVectors(:, idx(1:k));
         V = real(nEigVec);
     end

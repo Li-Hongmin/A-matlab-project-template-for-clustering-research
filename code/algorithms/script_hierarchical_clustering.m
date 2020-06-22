@@ -1,4 +1,4 @@
-function T = scrpt_hierarchical_clustering(Data, varargin)
+function T = script_hierarchical_clustering(Data, varargin)
     fea = Data.fea;
     k = Data.class;
 
