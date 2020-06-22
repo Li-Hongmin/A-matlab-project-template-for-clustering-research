@@ -19,6 +19,7 @@ performance = evaluate(data, res);
 write_table2latex(performance.ACC,'acc');
 write_table2latex(performance.NMI,'nmi');
 write_table2latex(performance.Time,'time');
+write_table2latex(data_info,'data');
 %%
 
 

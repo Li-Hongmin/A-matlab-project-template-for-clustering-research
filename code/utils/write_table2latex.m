@@ -7,6 +7,7 @@ function latex = write_table2latex(T, filename)
 
     % Switch to generate a complete LaTex document or just a table:
     input.makeCompleteLatexDocument = 0;
+    input.tablePositioning = 'htpb';
 
     input.booktabs = 1;
 

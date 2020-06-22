@@ -1,4 +1,4 @@
-function label = script_k_medoids(Data, varargin)
+function label = script_k_meadois(Data, varargin)
 
     fea = Data.fea;
     k = Data.class;

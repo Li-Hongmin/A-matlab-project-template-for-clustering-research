@@ -1,0 +1,34 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{lipsum}% example text
+
+\begin{document}
+    \title{Compare Clustering Methods}
+    \maketitle
+    \begin{center}
+        \author{Hongmin Li}
+    \end{center}
+
+    We conduct experiment to perform six clustering methods on two dataset.
+    The six clustering methods are listed as following.
+    \begin{itemize}
+        \item $k$-means
+        \item $k$-modoids
+        \item SC: Spectral Clustering
+        \item HC: Hierarchical Clustering
+        \item GMM: Gaussian-mixture-models
+        \item Density-based spatial clustering algorithm with noise (BBSCAN)
+    \end{itemize}
+    
+    We show information of datasets and the performance of clustering methods in following tables.
+
+    \begin{center}
+
+            \input{../code/results/latex/data.tex}
+            \input{../code/results/latex/acc.tex}
+            \input{../code/results/latex/nmi.tex}
+            \input{../code/results/latex/time.tex}
+    \end{center}
+    
+\end{document}
