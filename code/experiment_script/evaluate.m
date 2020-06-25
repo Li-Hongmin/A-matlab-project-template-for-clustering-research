@@ -1,4 +1,4 @@
-function [performance, acc_mean, nmi_mean, time_mean] = evaluate(data, res)
+function [performance, acc_mean, nmi_mean, time_mean] = evaluate(data, res, para)
     % performance = struct('ACC', {}, 'NMI', {});
     [n_method, n_dataset] = size(res);
     algorithm = cell(1,n_method);
@@ -34,5 +34,9 @@ function [performance, acc_mean, nmi_mean, time_mean] = evaluate(data, res)
         'VariableNames', algorithm, 'RowNames', {data.name});
     performance.Time = array2table(time_t, ...
     'VariableNames', algorithm, 'RowNames', {data.name});
+
+    write_table2latex(performance.ACC,[para.saved_name,'acc']);
+    write_table2latex(performance.NMI,[para.saved_name,'nmi']);
+    write_table2latex(performance.Time,[para.saved_name,'time']);
     
 end

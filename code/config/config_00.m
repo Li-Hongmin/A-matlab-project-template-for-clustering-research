@@ -1,4 +1,4 @@
-function para = config00()
+function para = config_00()
     % experiment
     para.n_repeat = 20;
     para.saved_name = 'c00';

@@ -1,7 +1,7 @@
 # Goals:
 - Create a template of MATLAB project for research paper
     - [x] create folders
-    - [ ] write a demo project to compare the clustering methods
+    - [] write a demo project to compare the clustering methods
         - configuration
             - [x] config
         - algorithms
@@ -15,12 +15,12 @@
             - [x] iris
             - [x] wine
         - [] demo.m
-        - [] scripts
+        - [x] scripts
             - [x] repeat
             - [x] evaluate
             - [x] save_result
-            - [] analysis
-        - [] utils
+            - [x] analysis
+        - [x] utils
             - [x] metrics stuff
         
 

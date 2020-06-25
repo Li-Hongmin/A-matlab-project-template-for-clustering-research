@@ -27,5 +27,5 @@ function label = script_spectral_clustering(data, varargin)
     Gjdx = idx;
     Z = sparse(Gidx(:), Gjdx(:), Gsdx(:), nSmp, p);
 
-    label = SC(Z, k);
+    label = algo_SC(Z, k);
 end
