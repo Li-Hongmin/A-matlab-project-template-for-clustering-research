@@ -18,7 +18,9 @@ save_result(res, para);
 res = read_result(para);
 performance = evaluate(data, res, para);
 
-%%
+ACC = performance.ACC
+NMI = performance.NMI
+Time = performance.Time
 
 
 

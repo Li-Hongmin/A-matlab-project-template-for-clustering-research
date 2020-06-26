@@ -1,0 +1,718 @@
+{
+    "root": {
+        "data": {
+            "id": "2bi4o5hhqnon7vcjrjoauu5c5j",
+            "text": "code",
+            "created": 1593131091698
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "7inempgu9qlhiqotlat5p3l5s5",
+                    "text": "algorithms",
+                    "created": 1593131091698
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "2alcuij9s6unemjailks2sd9kg",
+                            "text": "Scripts for the same input and output",
+                            "created": 1593131091698
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "07cglp4avbe96vf9547ih4p3tb",
+                            "text": "algo_*",
+                            "created": 1593131091698
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "5j7ehjm0mtr6n0ha6u6jqm5gc8",
+                                    "text": "codes for algorithms, keep one algorithms one file",
+                                    "created": 1593131091698
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "7p8k0obv5nlpk2h3roq9ju574m",
+                            "text": "spr_*",
+                            "created": 1593131091698
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "6627b9fu6t9sofimvbugoputn7",
+                                    "text": "scripts that can run algorithms",
+                                    "created": 1593131091698
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "0r0pluig19v5vabkqigcs6psas",
+                                    "text": "input",
+                                    "created": 1593131091698
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "1e40vj90el56jqfinnvv3s9fuq",
+                                            "text": "data",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "2gjvdjhsahj3hfilf7br9g82e3",
+                                            "text": "parameters",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "6olasgi49l9j8pql8kgalfdunb",
+                            "text": "load algorithms",
+                            "created": 1593131091698
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "1fdef5o60o4g3f9n430ffucq06",
+                                    "text": "scripts that organize all algorithms",
+                                    "created": 1593131091698
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "7osvd87q232l2mjc2k0p3cktf4",
+                                    "text": "output",
+                                    "created": 1593131091698
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "6or5v03r8adaac50oa2a9pvbng",
+                                            "text": "algorithm",
+                                            "created": 1593131091698
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "18f6feblk6na7bok770lt67pja",
+                                                    "text": "structure",
+                                                    "created": 1593131091698
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "3lme2i430ku36mjds0thtt0tkv",
+                                                            "text": "name: abbreviations of algorithms",
+                                                            "created": 1593131091698
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "4i89qvsfi4khr84avdo2v4ed96",
+                                                            "text": "source",
+                                                            "created": 1593131091698
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "1l31b6e87jeb4kmp9p2m8lf78o",
+                                                            "text": "func: function",
+                                                            "created": 1593131091698
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "5vfghihgni4ulmfl7f8s7scqir",
+                                            "text": "algo_info",
+                                            "created": 1593131091698
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "36qionbhjqslp65ovdcadassde",
+                                                    "text": "table",
+                                                    "created": 1593131091698
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "7vc4mf6a5339i22frc9ufa2q1e",
+                    "text": "experiment_script",
+                    "created": 1593131091698
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "5fe0n5c3h6gv6jubebmvrnjap4",
+                            "text": "repeat",
+                            "created": 1593131091698
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "5tbf6qbot7lgdp87954kvtmpef",
+                                    "text": "input",
+                                    "created": 1593131091698
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "2vn4vap85n7h00fdu77gfe8ts3",
+                                            "text": "data",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "744mv9mb1d2avso1ri30ghgrt7",
+                                            "text": "algorithm",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "2442tv4v5nsjige2nol7iggeni",
+                                            "text": "n",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "3l6e8l45sk8ee3jl3qvdec7k9b",
+                                            "text": "para",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "341bac6dg7d9j8pg2iil0gkd3f",
+                                    "text": "output",
+                                    "created": 1593131091698
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "5g5fjl1082ojhsptjtclnfuk90",
+                                            "text": "res(n_algorithm, n_data, n_times)",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "0eicl04lf0kiqq5p7kkv2smtp1",
+                            "text": "save_result",
+                            "created": 1593131091698
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "35frg750001ugorcju1sbsbeue",
+                                    "text": "inputs: res, para",
+                                    "created": 1593131091698
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "47ao22tq338t7e0d3nt3vtl9b1",
+                            "text": "read_result",
+                            "created": 1593131091698
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "58jrc8akmll200g6khlm63cnfd",
+                                    "text": "input",
+                                    "created": 1593131091698
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "6tihq3t76i5nbeojmpc18a9sjo",
+                                            "text": "para",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "516fao41mqfpofomn9239bh31c",
+                                            "text": "n: for duplicated file",
+                                            "created": 1593131091698
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "37jevm06d2h6m8evipnu82d22j",
+                                                    "text": "default: latest",
+                                                    "created": 1593131091698
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "3orfv4lsms6cr18ostmro8u0pd",
+                                    "text": "output: res",
+                                    "created": 1593131091698
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "0idvcag6bib7vlqnrrrq8lp4ut",
+                            "text": "evaluate",
+                            "created": 1593131091698
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "7hj97lvmmv3evcihjisqdrluf6",
+                                    "text": "compute the mean and std for metrics and save as res",
+                                    "created": 1593131091698
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "4ha02m5q5osccpg0ptu6gbr4ao",
+                                    "text": "input: res{method, data, res}",
+                                    "created": 1593131091698
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "3aehia0a5s2ltojlrmep8e0gk8",
+                                    "text": "output: tabel, latex",
+                                    "created": 1593131091698
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "76v2otqmptjgcha03tvsrbt8n6",
+                    "text": "resutls ",
+                    "created": 1593131091698
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c3qlurgk0co0",
+                            "created": 1593131134307,
+                            "text": "fig"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c3qlutvugzs0",
+                            "created": 1593131139586,
+                            "text": " latex "
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c3qluvp4d2o0",
+                            "created": 1593131143532,
+                            "text": "c**_*.mat"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c3qlv1qzff40",
+                                    "created": 1593131156706,
+                                    "text": "indicates *-th result with config_** "
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "5clqil6r62csadm8e86i22j6i8",
+                    "text": "demo",
+                    "created": 1593131091698
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c3qlvy12nxk0",
+                            "created": 1593131226973,
+                            "text": "a script to shwo how project works"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "67u88safuqgo2dcve3b55mjb98",
+                    "text": "data",
+                    "created": 1593131091698
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "5uelu3vvfulqgaqoe4n8d8o0cs",
+                            "text": "load_data",
+                            "created": 1593131091698
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "0t6uuijd61vss9kkc09uk2vrog",
+                                    "text": "Data",
+                                    "created": 1593131091698
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "73qi2mlvsgvmoel6d1nuuatfe0",
+                                            "text": "name str",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "4s7a48dt7nb4i5pbi6t3fubsul",
+                                            "text": "source str",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "1lvq0uiq9rcbq1muluaoe9m4b8",
+                                            "text": "fea matrix",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "2a4rquooofb5e8qjifnd576d6p",
+                                            "text": "gnd label",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "21rktu2bfs4pe25d4ej9po83fo",
+                                            "text": "class int",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "6a8bpa1dgdet31r4lgh74i7kn1",
+                                    "text": "Data_info",
+                                    "created": 1593131091698
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "39irhao9fqti2on231vj97s0fe",
+                                            "text": "datasets",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "75cjm22qincdt5e33fgmajhqjf",
+                                            "text": "instance #",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "7977jufrmbb54cs36q3k6gv22p",
+                                            "text": "feature #",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "6f1ct06cvd5i3dj48c9apdnh0e",
+                                            "text": "class #",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "5ipi6er091nc22isj5f6feo20t",
+                                            "text": "source",
+                                            "created": 1593131091698
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "34atg9lkq9el78piq7jp8pumko",
+                            "text": "data_*",
+                            "created": 1593131091699
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "50b15hrn56ite4a22hvcq5b1mo",
+                    "text": "utils",
+                    "created": 1593131091699
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "1d2d2m59lqgmrnpl0lnedkm3b6",
+                            "text": "bastMap",
+                            "created": 1593131091699
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c3qlwkz6gko0",
+                                    "created": 1593131276924,
+                                    "text": "map obtianed label to original label"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c3qlx1u32080",
+                            "created": 1593131313622,
+                            "text": "hungarian"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c3qlx8eeoag0",
+                            "created": 1593131327911,
+                            "text": "latexTable"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c3qlxbrdh4w0",
+                            "created": 1593131335226,
+                            "text": "mean_std_table"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c3qlxoyvu4o0",
+                            "created": 1593131363978,
+                            "text": " metric_acc"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c3qlxuutkw80",
+                            "created": 1593131376793,
+                            "text": "metric_nmi"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c3qly4vy5d40",
+                            "created": 1593131398629,
+                            "text": "write_table2latex"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "32jmikaqk4lpvsq7begaek61a9",
+                    "text": "config",
+                    "created": 1593131091699
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "7a7h78mvapr8cv3kq5op7q2vsd",
+                            "text": "config*",
+                            "created": 1593131091699
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "12s4ked4tomimgjaphe464qmjp",
+                                    "text": "parameters",
+                                    "created": 1593131091699
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "608g46klv7tk5dcsg798mi05vb",
+                                            "text": "prefix name of saved file",
+                                            "created": 1593131091699
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "78so2tgjjfc0ehbde2l8hs89q5",
+                            "text": "load_config",
+                            "created": 1593131091699
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "7hepma2ofd0eru5kbh57nqrbcu",
+                                    "text": "output: parameters",
+                                    "created": 1593131091699
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "70sh47k47aco1j9pqirmsleso7",
+                                    "text": "input: name of config file",
+                                    "created": 1593131091699
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "0n7ji60ptlegv5pvr2gkrpj0aj",
+                    "text": "latex",
+                    "created": 1593131091699
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "7743dvg737me1qp0a87744ffb4",
+                    "text": "Folder",
+                    "created": 1593131091699
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "3lrpu1vjjt15ubdkjcg208tahv",
+                            "text": "code",
+                            "created": 1593131091699
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "36npokimpeddv45uore9sst83d",
+                            "text": "latex",
+                            "created": 1593131091699
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "2hibvku43gd2ec1nk43dj8t092",
+                            "text": "todo",
+                            "created": 1593131091699
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "6lje3vid1k18g86uagrqlnh7jp",
+                            "text": "docs",
+                            "created": 1593131091699
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}
