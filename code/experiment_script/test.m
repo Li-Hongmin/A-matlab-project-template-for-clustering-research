@@ -1,5 +1,6 @@
-function res = repeat(data, algorihtm, n, para)
+function res = test(data, algorihtm, n, para)
     % res is cell(n_algorithm, n_data, n_times)
+    
     n_algorihtms = numel(algorihtm);
     n_data = numel(data);
     % res = cell(n_algorihtms, n_data, n);
@@ -15,9 +16,11 @@ function res = repeat(data, algorihtm, n, para)
             time_algo = zeros(n,1);
             for k = 1:n
                 fprintf('%d/%d ', k,n);
-                tic;
+                
+                timer = tic;
                 tmp{k} = feval(algorihtm(i).func, data(j), para);
-                time_algo(k) = toc;
+                time_algo(k) = toc(timer);
+                
             end
             res(i,j).raw_result = tmp;
             res(i,j).time_algo = time_algo;

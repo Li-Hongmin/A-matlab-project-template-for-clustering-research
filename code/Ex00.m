@@ -1,24 +1,28 @@
 %% config
-clc;clear;close all;
+clc;
+clear;close all;
 addpath(genpath('./'));
 
-para = load_config('config_00');
-n_repeat = para.n_repeat;
 %% predata
 [data, data_info] = load_data();
 disp(data_info)
-% write_table2latex(data_info,[para.saved_name,'data']);
+
 [algorithm, algo_info] = load_algorithms();
 disp(algo_info)
 %% run 
-res = test(data, algorithm, n_repeat, para);
+% rng(100,'twister')
 
 %%
+n_repeat = 20;
+para = load_config('config_00');
+para.saved_name = 'c00';
+run(data, algorithm, n_repeat, para);
+
+res = readresult(data, algorithm, para);
 performance = evaluate(data, res, para);
 
 ACC = performance.ACC
 NMI = performance.NMI
 Time = performance.Time
 
-
-
+% save('Ex00');
